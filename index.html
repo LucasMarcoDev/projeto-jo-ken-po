@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO KEN PO</title>
+    <style>
+        form#formulario{
+            display: flex;
+
+        }
+        .botao1{
+            margin-left: 5px;
+        }
+
+        .formi{
+            border: solid black 1px;
+        }
+        .formi:hover{
+            background-color: lightgreen;
+            color: white;
+            
+        }
+
+        .botao2{
+            margin-top: 10px;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <form action="" id="formulario" onsubmit="trye()">
+        <label class="formi" for="">Pedra, Papel, Tesoura:</label>
+        <input  class="ppt" type="text" placeholder="Escolha entre Pedra Papel Tesoura">
+        <button  class="botao1">Clique aqui</button>
+        <img src="" alt="" class="img">
+    </form>
+
+
+    <div id="container1">
+        <button onclick="gera()" class="botao2" >clique e gere a mao aleatoria </button>
+        <p class="txt"></p>
+        <img class="foto" src="" alt="">
+        <button class="botao3" onclick="result()">Resultado</button>
+        <p id="txtwinner"></p>
+        <p id="placar1"></p>
+        <p id="placar2"></p>
+    </div>
+
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
