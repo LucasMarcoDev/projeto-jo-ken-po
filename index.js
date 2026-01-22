@@ -89,3 +89,7 @@ function result() {
 }
 btn2.addEventListener('click', gera())
 btn3.addEventListener('click', result())
+
+
+
+
